@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Castoro&display=swap');
+
+
+.searchBar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 7vh;
+    width: 100vw;
+    margin: 50px 0 0 0;
+    font-family: 'Castoro', serif;
+}
+
+.searchText{
+    margin: 40px 0px;
+
+}
+
+.searchBox{
+    height: 5vh;
+    width: 40%;
+    padding: 1%;
+    border: none;
+    outline: none;
+    border-radius: 14px;
+    box-shadow: inset 0px 0px 5px 0px grey;
+}

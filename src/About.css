@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Castoro&display=swap');
+
+
+.aboutContainer{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    text-align: center;
+    flex-direction: column;
+    height: 100vh;
+    width: 100vw;
+    margin-top:50px ;
+    font-family: 'Castoro', serif;
+}
+
+.aboutContainer > h1 {
+    margin: 10px;
+}

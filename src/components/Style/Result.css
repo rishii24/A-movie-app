@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Castoro&display=swap');
+
+
+.results{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 100px 0px;
+}
+
+.result{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 50px 40px;
+    padding: 1%;
+    font-family: 'Castoro', serif;
+    box-shadow: 0px 2px 5px 0px grey;
+    border-radius: 5px;
+}
+
+.movieContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    text-decoration: none;
+    color: black;
+}
+
+.resultImg{
+    margin: 0px 0 10px 0px;
+}
+
+.movieContainer > h3{
+    text-align: center;
+}
+.movieContainer > h4{
+    text-align: center;
+}
+.movieContainer > p{
+    text-align: center;
+    font-size: 14px;
+}
